@@ -1,4 +1,6 @@
 /*
+nvcc flagg.cu -o flagg
+
 file = open("noise.bin", "wb");
 file.write(np.random.normal(0.,10.,2000000,dtype=np.float32));
 file.close()
